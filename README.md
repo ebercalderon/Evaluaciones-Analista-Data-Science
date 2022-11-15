@@ -32,7 +32,8 @@
 - Evaluación 2
 ![Image](img/3.png)
 ![Image](img/4.png)
-
+![Image](img/5.png)
+![Image](img/6.png)
 
 
 ## Autor
