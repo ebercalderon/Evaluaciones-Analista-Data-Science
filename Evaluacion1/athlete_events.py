@@ -11,11 +11,12 @@ sports = df.Sport.unique()
 def validacion(texto):
     while True:
         sport = input(texto).strip()
-        return sport if sport in sports else print("Ingrese un deporte valido")
+        if sport in sports:
+            return sport
+        print("Ingrese un deporte valido")
 
 sportA = validacion("Ingrese un deporte: ")
 sportB = validacion("Ingrese otro deporte: ")
-
 
 # AMBOS DEPORTES PRESENTES
 listA = df.Year[df.Sport == sportA].unique()
