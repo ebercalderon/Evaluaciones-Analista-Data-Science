@@ -4,38 +4,35 @@
 
 <br/>
 <p align="center">
-    <a href="https://github.com/ebercalderon/">
+    <a href="https://github.com/ebercalderon/Evaluaciones-Analista-Data-Science/tree/main/Evaluacion1">
       <img src="https://img.shields.io/badge/Evaluacion-1-blue" /></a> &#xa0;
-    <a href="https://github.com/ebercalderon/">
+    <a href="https://github.com/ebercalderon/Evaluaciones-Analista-Data-Science/tree/main/Evaluacion2">
       <img src="https://img.shields.io/badge/Evaluacion-2-blueviolet" /></a>
 </p>
 <br/>
 
-  * [Configuraciones](#configuraciones)
-  * [Características principales](#características-principales)
   * [Tecnologías utilizadas](#tecnologías-utilizadas)
   * [Screenshots](#screenshots)
   * [Autor](#autor)
 
 
-## Configuraciones
-
-- Próximamente
-
-
-##  Características principales
-
-- Coming soon
-
-
 ##  Tecnologías utilizadas
 
-- Próximamente
+- Python
+- Colab
+- Power BI
 
  
 ##  Screenshots
 
-- Próximamente
+- Evaluación 1
+![Image](img/1.png)
+![Image](img/2.png)
+
+- Evaluación 2
+![Image](img/3.png)
+![Image](img/4.png)
+
 
 
 ## Autor
