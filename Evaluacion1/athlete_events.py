@@ -26,9 +26,9 @@ listAB = sorted(list(set(listA) & set(listB)))
 # DETERMINAR ALTURAS
 for year in listAB:
     
-    auxA = df.Height[(df.Year == year) & (df.Sport == 'Judo')].dropna()
-    auxB = df.Height[(df.Year == year) & (df.Sport == 'Football')].dropna()
+    auxA = df.Height[(df.Year == year) & (df.Sport == sportA)].dropna()
+    auxB = df.Height[(df.Year == year) & (df.Sport == sportB)].dropna()
 
     result = (auxA.mean() - auxB.mean()) / math.sqrt((auxA.var() / auxA.count()) + (auxB.var() / auxB.count()))
 
-    print("Año " + str(year) + " D: " + ("Hay diferencia significativa" if abs(result) > 1.96 else "No hay diferencia significativa"))
+    print("Año " + str(year) + " D: " + "%.4f" % result + (" Hay diferencia significativa" if abs(result) > 1.96 else " No hay diferencia significativa"))
