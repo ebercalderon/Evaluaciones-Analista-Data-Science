@@ -3,7 +3,7 @@ import math
 import pandas as pd
 
 # LEYENDA LA DATA
-df = pd.read_csv('athlete_events.csv')
+df = pd.read_csv('Evaluacion1/athlete_events.csv')
 
 # INGRESO POR TECLADO
 sports = df.Sport.unique()
